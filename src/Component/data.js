@@ -23,7 +23,7 @@ export const featuredPortfolio = [
     {
       id: 4,
       title: "Text Utils",
-      go:"http://sahilgupta7.me/TextUtils/",
+      go:"https://sahil2012.github.io/TextUtils/",
       img:
       "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
 
