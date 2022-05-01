@@ -1,0 +1,84 @@
+
+@import '../../global.scss';
+
+.DSA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        font-size: 50px;
+
+        @include mobile {
+            font-size: 20px;
+        }
+    }
+
+    .container {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include mobile {
+            flex-direction: column;
+            height: 90%;
+        }
+        .card {
+            background-color: white;
+            width: 250px;
+            height: 70%;
+            box-shadow: 0px 0px 15px -8px black;
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-around;
+            cursor: pointer;
+
+
+            @include mobile{
+                height: 180px;
+                margin: 10px 0;
+              }
+            &.featured {
+                width: 300px;
+                height: 75%;
+                margin: 0 30px ;
+
+                @include mobile{
+                    width: 250px;
+                    height: 180px;
+                    margin: 1px;
+                  }
+            }
+
+            img {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+
+                @include mobile{
+                    width: 30px;
+                    height: 30px;
+                  }
+            }
+
+            p {
+                text-align: center;
+
+                @include mobile {
+                    font-size: 10px;
+                }
+            }
+
+            a {
+                @include mobile {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
